@@ -1,3 +1,11 @@
+// ####################################################################################
+// #                                                                                  #
+// #      Program Purpose: Answers the question 4.38 from book.                       #
+// #      Program Author : Happi Yvan <ivensteinpoker@gmail.com>                      #
+// #      Program Date   : 29/05/2019                                                 #
+// #                                                                                  #
+// ####################################################################################
+
 package books.JavaHowToProgram10Ed.chapter_4.Exercise_4_38;
 
 public class Digits {
