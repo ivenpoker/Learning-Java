@@ -19,10 +19,10 @@ public class Exercise_C_3_22 {
         for (int i = 0; i < data.length; i++)
             System.out.printf("%2d%s", data[i], (cnt++ % brkPt == 0) ? "\n" :  " ");
     }
-
-    public static void shuffle(int[] data) {
-        Collections.shuffle();
-    }
+//
+//    public static void shuffle(int[] data) {
+//        Collections.shuffle();
+//    }
 
     public static void main(String[] args) {
         int[] data = new int[100];
