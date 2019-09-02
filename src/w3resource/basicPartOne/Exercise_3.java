@@ -16,7 +16,7 @@ public class Exercise_3 {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.printf("Enter first number: ");
+        System.out.print("Enter first number: ");
         double firstInput = input.nextDouble();
 
         System.out.print("Enter second number: ");
