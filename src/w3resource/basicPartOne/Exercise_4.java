@@ -16,7 +16,7 @@ public class Exercise_4 {
         System.out.printf("%d + %d * %d = %d\n", -5, 8, 6, (-5 + 8 * 6));
         System.out.printf("(%d + %d) %% %d = %d\n", 55, 9, 9, (55 + 9) % 9);
         System.out.printf("%d + %d * %d / %d = %d\n", 20, -3, 5, 8, (20 + -3 * 5 / 8));
-        System.out.printf("%d + %d / %d * %d - %d %% %d\n", 5, 15, 3, 2, 8, 3, (5 + 15 / 3 * 2 - 8 % 3));
+        System.out.printf("%d + %d / %d * %d - %d %% %d = %d\n", 5, 15, 3, 2, 8, 3, (5 + 15 / 3 * 2 - 8 % 3));
 
     }
 }
