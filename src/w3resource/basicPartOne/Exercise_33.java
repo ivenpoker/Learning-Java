@@ -2,7 +2,7 @@ package w3resource.basicPartOne;
 
 // ########################################################################################
 // #                                                                                      #
-// #    Program Purpose: Compares two numbers.                                            #
+// #    Program Purpose: Computes the sum of digits of an integer.                        #
 // #    Program Author : Happi Yvan <ivensteinpoker@gmail.com>                            #
 // #    Creation Date  : September 8, 2019                                                #
 // #                                                                                      #
@@ -13,44 +13,31 @@ import java.util.Scanner;
 
 public class Exercise_33 {
 
+    private static int computeSumOfDigits(String someString) {
+        int sum = 0;
+        for (int i = 0; i < someString.length(); i++)
+            sum += Integer.parseInt("" + someString.charAt(i));
+        return sum;
+    }
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        double firstNum = 0;
-        double secondNum = 0;
+        int mainNumber = 0;
         boolean valid = false;
 
         do {
             try {
-                System.out.print("Enter first number: ");
-                firstNum = input.nextInt();
+                System.out.print("Enter some integer: ");
+                mainNumber = input.nextInt();
                 valid = true;
 
             } catch (InputMismatchException inputMismatchException) {
                 input.nextLine();           // clear input stream.
-                System.err.println("Invalid input. Please try again.");
+                System.err.println("Invalid input. Please, try again.");
             }
         } while (!valid);
 
-        valid = false;
-
-        do {
-            try {
-                System.out.print("Enter second number: ");
-                secondNum = input.nextInt();
-                valid = true;
-
-            } catch (InputMismatchException inputMismatchException) {
-                input.nextLine();           // clear input stream.
-                System.err.println("Invalid input. Please try again.");
-            }
-        } while (!valid);
-
-        if (firstNum < secondNum) {
-            System.out.printf("%.2f < %.2f\n", firstNum, secondNum);
-        } else if (firstNum > secondNum) {
-            System.out.printf("%.2f > %.2f\n", firstNum, secondNum);
-        } else {
-            System.out.printf("%.2f == %.2f\n", firstNum, secondNum);
-        }
+        String mainString = Integer.toString(mainNumber);
+        System.out.printf("Sum of digits in %d: %d\n", mainNumber, computeSumOfDigits(mainString));
     }
 }

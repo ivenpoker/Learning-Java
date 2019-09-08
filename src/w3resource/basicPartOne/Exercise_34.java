@@ -2,7 +2,7 @@ package w3resource.basicPartOne;
 
 // ########################################################################################
 // #                                                                                      #
-// #    Program Purpose: Computes the sum of digits of an integer.                        #
+// #    Program Purpose: Computes the area of a hexagon.                                  #
 // #    Program Author : Happi Yvan <ivensteinpoker@gmail.com>                            #
 // #    Creation Date  : September 8, 2019                                                #
 // #                                                                                      #
@@ -13,31 +13,36 @@ import java.util.Scanner;
 
 public class Exercise_34 {
 
-    private static int computeSumOfDigits(String someString) {
-        int sum = 0;
-        for (int i = 0; i < someString.length(); i++)
-            sum += Integer.parseInt("" + someString.charAt(i));
-        return sum;
+    private static double computeAreaOfHexagon(int sideLength) {
+        return (6 * Math.pow(sideLength, 2) / (4 * Math.tan(Math.PI / 6)));
     }
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int mainNumber = 0;
+        int sideLength = 0;
         boolean valid = false;
 
         do {
             try {
-                System.out.print("Enter some integer: ");
-                mainNumber = input.nextInt();
+                System.out.print("Enter side length for hexagon: ");
+                sideLength = input.nextInt();
+
+                if (sideLength <= 0) {
+                    throw new IllegalArgumentException("Invalid input. Please provide positive side length");
+                }
                 valid = true;
 
             } catch (InputMismatchException inputMismatchException) {
-                input.nextLine();           // clear input stream.
-                System.err.println("Invalid input. Please, try again.");
+                input.nextLine();               // clear input stream.
+                System.err.println("Invalid input. Please try again.");
+
+            } catch (IllegalArgumentException illegalArgumentException) {
+                System.err.println(illegalArgumentException.getMessage());
             }
         } while (!valid);
 
-        String mainString = Integer.toString(mainNumber);
-        System.out.printf("Sum of digits in %d: %d\n", mainNumber, computeSumOfDigits(mainString));
+        System.out.printf("Area of Hexagon: %.2f\n", computeAreaOfHexagon(sideLength));
+
     }
+
 }
