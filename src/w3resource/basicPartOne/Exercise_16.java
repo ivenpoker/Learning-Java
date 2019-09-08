@@ -4,7 +4,7 @@ package w3resource.basicPartOne;
 // #                                                                                      #
 // #    Program Purpose: Add two binary numbers.                                          #
 // #    Program Author : Happi Yvan <ivensteinpoker@gmail.com>                            #
-// #    Creation Date  : September 4, 2019                                                #
+// #    Creation Date  : September 8, 2019                                                #
 // #                                                                                      #
 // ########################################################################################
 
