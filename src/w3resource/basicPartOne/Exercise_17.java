@@ -11,7 +11,7 @@ package w3resource.basicPartOne;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Exercise_16 {
+public class Exercise_17 {
 
     public static void main(String[] args) {
         long binary1 = 0;
