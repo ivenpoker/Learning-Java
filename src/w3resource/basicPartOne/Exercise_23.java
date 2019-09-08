@@ -45,7 +45,7 @@ public class Exercise_23 {
             }
         } while (!valid);
 
-        // Assuming user number if binary....
+        // Assuming user's input was binary....
         try {
             int decimalNumber = binaryToDecimal(binaryNumber);
             String hexEquivalent = Integer.toHexString(decimalNumber);
