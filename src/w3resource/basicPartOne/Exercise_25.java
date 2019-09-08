@@ -1,5 +1,12 @@
 package w3resource.basicPartOne;
 
+// ########################################################################################
+// #                                                                                      #
+// #    Program Purpose: Converts octal number to decimal number.                         #
+// #    Program Author : Happi Yvan <ivensteinpoker@gmail.com>                            #
+// #    Creation Date  : September 8, 2019                                                #
+// #                                                                                      #
+// ########################################################################################
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
