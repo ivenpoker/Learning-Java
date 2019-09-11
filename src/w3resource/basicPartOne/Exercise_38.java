@@ -5,7 +5,7 @@ package w3resource.basicPartOne;
 // #    Program Purpose: Count the letters, spaces, numbers and other characters of an    #
 // #                     input string.                                                    #
 // #    Program Author : Happi Yvan <ivensteinpoker@gmail.com>                            #
-// #    Creation Date  : September 8, 2019                                                #
+// #    Creation Date  : September 11, 2019                                               #
 // #                                                                                      #
 // ########################################################################################
 
