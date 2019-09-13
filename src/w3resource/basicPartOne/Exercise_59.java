@@ -4,7 +4,7 @@ package w3resource.basicPartOne;
 // #                                                                                        #
 // #    Program Purpose: Reads a sentence from console, and converts it all to lowercase.   #
 // #    Program Author : Happi Yvan <ivensteinpoker@gmail.com>                              #
-// #    Creation Date  : September 12, 2019                                                 #
+// #    Creation Date  : September 13, 2019                                                 #
 // #                                                                                        #
 // ##########################################################################################
 
