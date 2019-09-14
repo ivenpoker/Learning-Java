@@ -2,7 +2,7 @@ package books.JavaHowToProgram10Ed.chapter_16;
 
 // ####################################################################################
 // #                                                                                  #
-// #      Program Purpose: Answers the question 16.12 from book.                      #
+// #      Program Purpose: Answers the question 16.11 from book.                      #
 // #      Program Author : Happi Yvan <ivensteinpoker@gmail.com>                      #
 // #      Program Date   : September 14, 2019                                         #
 // #                                                                                  #
