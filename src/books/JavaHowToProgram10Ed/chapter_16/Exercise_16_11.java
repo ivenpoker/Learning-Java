@@ -8,8 +8,6 @@ package books.JavaHowToProgram10Ed.chapter_16;
 // #                                                                                  #
 // ####################################################################################
 
-import java.util.Properties;
-
 public class Exercise_16_11 {
 
     public static void main(String[] args) {
