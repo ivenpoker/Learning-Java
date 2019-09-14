@@ -12,7 +12,7 @@ import java.util.Iterator;
 import java.util.Scanner;
 import java.util.TreeSet;
 
-public class Exercise_6_13 {
+public class Exercise_16_13 {
 
     private static TreeSet<String> firstNames = new TreeSet<>();
     private static Scanner scanner = new Scanner(System.in);
