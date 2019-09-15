@@ -8,7 +8,6 @@ package books.JavaHowToProgram10Ed.chapter_16;
 // #                                                                                  #
 // ####################################################################################
 
-
 import java.util.Scanner;
 import java.util.Set;
 import java.util.Map;
@@ -17,7 +16,6 @@ import java.util.List;
 import java.util.LinkedList;
 import java.util.ListIterator;
 import java.util.HashMap;
-
 
 public class Exercise_16_16 {
 
