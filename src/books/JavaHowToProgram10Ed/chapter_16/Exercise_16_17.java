@@ -1,5 +1,13 @@
 package books.JavaHowToProgram10Ed.chapter_16;
 
+// ####################################################################################
+// #                                                                                  #
+// #      Program Purpose: Answers the question 16.17 from book.                      #
+// #      Program Author : Happi Yvan <ivensteinpoker@gmail.com>                      #
+// #      Program Date   : September 15, 2019                                         #
+// #                                                                                  #
+// ####################################################################################
+
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
