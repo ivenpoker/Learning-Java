@@ -14,7 +14,7 @@ public class Exercise_71 {
 
     private static Scanner scanner = new Scanner(System.in);
 
-    private static String readAndProccesssData() {
+    private static String readAndProcessData() {
         boolean isValid = false;
         StringBuilder builder = new StringBuilder();
 
@@ -42,7 +42,7 @@ public class Exercise_71 {
     }
 
     public static void main(String[] args) {
-        String mainStr = readAndProccesssData();
+        String mainStr = readAndProcessData();
         System.out.printf("Final string is: %s\n", mainStr);
     }
 }
