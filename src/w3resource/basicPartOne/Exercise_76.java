@@ -4,7 +4,7 @@ package w3resource.basicPartOne;
 // #                                                                                               #
 // #    Program Purpose: Tests if the first and the last element of two array of integers are same #                                   #
 // #    Program Author : Happi Yvan <ivensteinpoker@gmail.com>                                     #
-// #    Creation Date  : September 17, 2019                                                        #
+// #    Creation Date  : September 20, 2019                                                        #
 // #                                                                                               #
 // #################################################################################################
 
