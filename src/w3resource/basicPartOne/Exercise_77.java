@@ -5,7 +5,7 @@ package w3resource.basicPartOne;
 // #    Program Purpose: Creates a new array of size 2 from two arrays of size 3. New array will   #
 // #                     contain the last integer from both arrays.                                #
 // #    Program Author : Happi Yvan <ivensteinpoker@gmail.com>                                     #
-// #    Creation Date  : September 17, 2019                                                        #
+// #    Creation Date  : September 20, 2019                                                        #
 // #                                                                                               #
 // #################################################################################################
 
