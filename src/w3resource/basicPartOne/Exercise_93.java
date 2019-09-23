@@ -5,7 +5,7 @@ package w3resource.basicPartOne;
 // #    Program Purpose: Tests if any array of integers contains an element 10 next to 10 or an     #
 // #                     element 20 next to 20, but not both.                                       #
 // #    Program Author : Happi Yvan <ivensteinpoker@gmail.com>                                      #
-// #    Creation Date  : September 20, 2019                                                         #
+// #    Creation Date  : September 23, 2019                                                         #
 // #                                                                                                #
 // ##################################################################################################
 
