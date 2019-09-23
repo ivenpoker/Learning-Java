@@ -3,7 +3,7 @@ package w3resource.basicPartOne;
 // ######################################################################################################
 // #                                                                                                    #
 // #    Program Purpose: Checks if there is a 10 in a given array of integers with a 20 somewhere later #
-// #                     in the array.
+// #                     in the array.                                                                  #
 // #    Program Author : Happi Yvan <ivensteinpoker@gmail.com>                                          #
 // #    Creation Date  : September 23, 2019                                                             #
 // #                                                                                                    #
