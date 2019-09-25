@@ -5,7 +5,7 @@ package w3resource.basicPartOne;
 // #    Program Purpose: Creates a new array from a given array of integers, new array will contain the  #
 // #                     elements from the given array after the last element value 10                   #
 // #    Program Author : Happi Yvan <ivensteinpoker@gmail.com>                                           #
-// #    Creation Date  : September 24, 2019                                                              #
+// #    Creation Date  : September 25, 2019                                                              #
 // #                                                                                                     #
 // #######################################################################################################
 
