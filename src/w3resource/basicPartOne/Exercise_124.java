@@ -2,8 +2,8 @@ package w3resource.basicPartOne;
 
 // #######################################################################################################
 // #                                                                                                     #
-// #    Program Purpose: Finds the index of a value in sorted array. If the value does not find return
-// #                     the index, where it would be if it were inserted in order.
+// #    Program Purpose: Finds the index of a value in sorted array. If the value does not find return   #
+// #                     the index, where it would be if it were inserted in order.                      #
 // #    Program Author : Happi Yvan <ivensteinpoker@gmail.com>                                           #
 // #    Creation Date  : October 26, 2019                                                                #
 // #                                                                                                     #
