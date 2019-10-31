@@ -2,7 +2,7 @@ package w3resource.basicPartOne;
 
 // #######################################################################################################
 // #                                                                                                     #
-// #    Program Purpose: Get the inorder traversal of its nodes' values of a given binary tree.          #
+// #    Program Purpose: Get the pre-order traversal of its nodes' values of a given binary tree.        #
 // #    Program Author : Happi Yvan <ivensteinpoker@gmail.com>                                           #
 // #    Creation Date  : October 30, 2019                                                                #
 // #                                                                                                     #
@@ -187,9 +187,7 @@ public class Exercise_125 {
         TestTree<Integer> demoTree = new TestTree<>(someData[0]);
         IntStream.of(someData).forEach(val -> demoTree.addItem(someData[i[0]++]));
 
-        System.out.printf("  After doing in-order traversal: %s\n", demoTree.inOrderTraversal());
-//        System.out.printf(" After doing pre-order traversal: %s\n", demoTree.preOrderTraversal());
-//        System.out.printf("After doing post-order traversal: %s\n", demoTree.postOrderTraversal());
+        System.out.printf(" After doing pre-order traversal: %s\n", demoTree.preOrderTraversal());
 
     }
 }
