@@ -8,8 +8,6 @@ package w3resource.basicPartOne;
 // #                                                                                                     #
 // #######################################################################################################
 
-import org.jetbrains.annotations.NotNull;
-
 import java.security.SecureRandom;
 import java.util.Arrays;
 import java.util.stream.IntStream;
@@ -26,7 +24,7 @@ public class Exercise_113 {
         return newData;
     }
 
-    private static int[] mergeData(@NotNull int[] dataSourceA, @NotNull int[] dataSourceB) {
+    private static int[] mergeData(int[] dataSourceA, int[] dataSourceB) {
         int[] newData = new int[dataSourceA.length + dataSourceB.length];
         final int[] i = {0};
         IntStream.of(dataSourceA).forEach(value -> newData[i[0]++] = value);
