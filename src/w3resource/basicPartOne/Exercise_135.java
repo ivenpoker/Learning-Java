@@ -5,7 +5,7 @@ package w3resource.basicPartOne;
 // #    Program Purpose: Removes duplicates from a sorted linked list. In this case the linked list is   #
 // #                     programmed to keep data in descending order as the sorted order.                #
 // #    Program Author : Happi Yvan <ivensteinpoker@gmail.com>                                           #
-// #    Creation Date  : October 31, 2019                                                                #
+// #    Creation Date  : November 9, 2019                                                                #
 // #                                                                                                     #
 // #######################################################################################################
 
