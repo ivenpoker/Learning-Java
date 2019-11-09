@@ -2,8 +2,8 @@ package w3resource.basicPartOne;
 
 // #######################################################################################################
 // #                                                                                                     #
-// #    Program Purpose: Find possible unique paths considering some obstacles, from top-left corner to
-// #                     bottom-right corner of a given grid (m x n).
+// #    Program Purpose: Find possible unique paths considering some obstacles, from top-left corner to  #
+// #                     bottom-right corner of a given grid (m x n).                                    #
 // #    Program Author : Happi Yvan <ivensteinpoker@gmail.com>                                           #
 // #    Creation Date  : November 9, 2019                                                                #
 // #                                                                                                     #
