@@ -12,7 +12,7 @@ package w3resource.basicPartTwo;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Exercise_155 {
+public class Exercise_156 {
 
     private static Scanner scanner = new Scanner(System.in);
 
