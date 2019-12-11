@@ -2,7 +2,7 @@ package w3resource.basicPartOne;
 
 // ####################################################################################
 // #                                                                                  #
-// #    Program Purpose: Tests if a binary tree is a subtree of another binary tree.  #                                                  #
+// #    Program Purpose: Tests if a binary tree is a subtree of another binary tree.  #
 // #    Program Author : Happi Yvan <ivensteinpoker@gmail.com>                        #
 // #    Creation Date  : December 11, 2019                                            #
 // #                                                                                  #
