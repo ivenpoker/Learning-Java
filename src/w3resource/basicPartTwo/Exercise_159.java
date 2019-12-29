@@ -11,9 +11,8 @@ package w3resource.basicPartTwo;
 import java.security.SecureRandom;
 import java.util.Arrays;
 import java.util.InputMismatchException;
-import java.util.Objects;
-import java.util.stream.IntStream;
 import java.util.Scanner;
+import java.util.stream.IntStream;
 
 public class Exercise_159 {
 
