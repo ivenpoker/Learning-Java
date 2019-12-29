@@ -1,6 +1,5 @@
 package w3resource.basicPartTwo;
 
-
 // ####################################################################################
 // #                                                                                  #
 // #    Program Purpose: Moves every +ve number to the right and every -ve number to  #
