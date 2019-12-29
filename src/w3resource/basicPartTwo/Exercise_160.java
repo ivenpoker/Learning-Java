@@ -2,7 +2,7 @@ package w3resource.basicPartTwo;
 
 // ####################################################################################
 // #                                                                                  #
-// #    Program Purpose: Finds the kth smallest element in a given array.              #
+// #    Program Purpose: Finds the kth smallest element in a given array.             #
 // #    Program Author : Happi Yvan <ivensteinpoker@gmail.com>                        #
 // #    Creation Date  : December 29, 2019                                            #
 // #                                                                                  #
