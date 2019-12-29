@@ -12,13 +12,11 @@ package w3resource.basicPartTwo;
 
 import java.security.SecureRandom;
 import java.util.Arrays;
-import java.util.Scanner;
 import java.util.stream.IntStream;
 
 public class Exercise_165 {
 
     private static SecureRandom random = new SecureRandom();
-    private static Scanner scanner = new Scanner(System.in);
 
     private static int[] randomIntegerArray(int low, int high, int size) {
         if (size < 0) {
