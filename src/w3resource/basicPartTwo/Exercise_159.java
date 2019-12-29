@@ -39,9 +39,7 @@ public class Exercise_159 {
                 System.out.println("[DONE]");
             }
         }
-        if (!Objects.isNull(scanner)) {
-            scanner.close();
-        }
+        scanner.close();
         return userData;
     }
 
