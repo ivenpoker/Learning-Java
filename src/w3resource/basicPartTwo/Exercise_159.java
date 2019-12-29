@@ -39,7 +39,6 @@ public class Exercise_159 {
                 System.out.println("[DONE]");
             }
         }
-        scanner.close();
         return userData;
     }
 
