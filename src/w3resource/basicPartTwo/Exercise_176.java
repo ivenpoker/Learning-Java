@@ -44,13 +44,28 @@ public class Exercise_176 {
         }
     }
 
+    private static void printLine(char someChar, int times) {
+        for (int i = 0; i < times; i++) {
+            System.out.printf("%c", someChar);
+        }
+        System.out.println();
+    }
+
     public static void main(String[] args) {
         int[] newArrayData = randomIntArray(0, 20, 15);
         System.out.printf("Generated data: %s\n", Arrays.toString(newArrayData));
 
         // do the arrangements
         doRearrangements(newArrayData);
-
         System.out.printf("After processing: %s\n", Arrays.toString(newArrayData));
+
+        printLine('-', 70);
+
+        // Another test case
+        int[] newTestData = {7, 2, 4, 1, 3, 5, 6, 8, 2, 10};
+        System.out.printf("New test case: %s\n", Arrays.toString(newTestData));
+
+        doRearrangements(newTestData);
+        System.out.printf("After processing: %s\n", Arrays.toString(newTestData));
     }
 }
