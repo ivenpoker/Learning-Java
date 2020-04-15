@@ -20,6 +20,7 @@ public class Exercise_2_12 {
         y = a * x * x * x + 7;     // Same as equation
         y = a * x * x * (x + 7);   // Not same as equation
         y = (a * x) * x * (x + 7); // Not same as equation
+        y = (a * x) * x * x + 7;   // Same as equation
         y = a * (x * x * x) + 7;   // Same as equation.
         y = a * x * (x * x + 7);   // Not same as equation.
     }
