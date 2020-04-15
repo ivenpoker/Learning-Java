@@ -34,7 +34,7 @@ public class Exercise_2_11 {
         System.out.println("a = 5");
 
         // Question d)
-        // ANS: Values NOT modifiable (dont't even have values)
+        // ANS: Value of 'value' is modified.
         value = input.nextInt();
 
     }
