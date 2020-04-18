@@ -6,7 +6,6 @@
 // #                                                                                  #
 // ####################################################################################
 
-
 package books.JavaHowToProgram10Ed.chapter_2;
 
 import java.util.Scanner;
@@ -28,6 +27,16 @@ public class Exercise_2_17 {
         System.out.printf("Sum of three integers: %d%n", (fstInt + sndInt + thirdInt));
         System.out.printf("Average of three integers: %d%n", (fstInt + sndInt + thirdInt) / 3);
         System.out.printf("Product of three integers: %d%n", (fstInt * sndInt * thirdInt));
+
+        int smallest = fstInt;
+        if (smallest > sndInt) {
+            smallest = sndInt;
+        }
+        if (smallest > thirdInt) {
+            smallest = thirdInt;
+        }
+
+        System.out.printf("Smallest of three integers: %d%n", smallest);
 
         int largest = fstInt;
         if (sndInt > largest) largest = sndInt;
