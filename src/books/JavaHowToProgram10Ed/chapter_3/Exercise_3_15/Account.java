@@ -31,8 +31,4 @@ public class Account {
     public String getName() {
         return this._name;
     }
-
-    public static void displayAccount(Account _accountToDisplay) {
-        System.out.printf("%s balance: $%.2f%n", _accountToDisplay.getName(), _accountToDisplay.getBalance());
-    }
 }

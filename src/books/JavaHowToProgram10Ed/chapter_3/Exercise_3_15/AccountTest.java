@@ -12,13 +12,17 @@ import java.util.Scanner;
 
 public class AccountTest {
 
+    public static void displayAccount(Account accountToDisplay) {
+        System.out.printf("%s balance: $%.2f%n", accountToDisplay.getName(), accountToDisplay.getBalance());
+    }
+    
     public static void main(String[] args) {
         Account account1 = new Account("Jane Green", 50.00);
         Account account2 = new Account("Jane Blue", -7.53);
 
         // display initial balance of each object
-        Account.displayAccount(account1);
-        Account.displayAccount(account2);
+        displayAccount(account1);
+        displayAccount(account2);
 
         // Create a Scanner to obtain input from the command window
         Scanner input = new Scanner(System.in);
@@ -29,8 +33,8 @@ public class AccountTest {
         System.out.printf("%nAdding %.2f to account1 balance%n%n", depositAmount);
 
         // display balances
-        Account.displayAccount(account1);
-        Account.displayAccount(account2);
+        displayAccount(account1);
+        displayAccount(account2);
 
         System.out.print("Enter deposit amount for account2: ");
         depositAmount = input.nextDouble();
@@ -38,8 +42,8 @@ public class AccountTest {
         account2.deposit(depositAmount);
 
         // display balances
-        Account.displayAccount(account1);
-        Account.displayAccount(account2);
+        displayAccount(account1);
+        displayAccount(account2);
 
     }
 }
