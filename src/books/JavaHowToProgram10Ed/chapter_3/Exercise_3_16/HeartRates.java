@@ -56,7 +56,8 @@ public class HeartRates {
     }
 
     public double computeTargetHeartRate() {
-        return (75.0/100) * this.maximumHeartRate();
+        double rangeSum = (50 + 80);
+        return ((rangeSum/2)/100) * this.maximumHeartRate();
     }
 
     public String getFirstName() {
