@@ -18,6 +18,6 @@ public class Exercise_4_14 {
         //
         // Post-incrementing a variable has an effect of incrementing the contents of the
         // variable AFTER any computation is done WITHIN the STATEMENT that the variable is
-        // found within.
+        // found in.
     }
 }
