@@ -14,8 +14,10 @@ public class Exercise_4_15 {
         // ANS:
         //
         // a) Remove the ';' at the end of the 'if' selection statement.
-        // b) Initialize the variable 'total' and decrement the value of x.
-        // c) Missing braces ( {} ) for the 'while' repetitive-statement, include them.
-        // d) Missing closing braces ( } ) for the 'while' repetitive statement.
+        // b) Initialize the variable 'total' and decrement the value of x to avoid infinite loop.
+        // c) Missing braces ( {} ) for the 'while' repetitive-statement, include them. Also decrement the value of x
+        //    to avoid infinite looping.
+        // d) Missing closing braces ( } ) for the 'while' repetitive statement. Also decrement the value of 'y'
+        //    to avoid a possibly infinite loop.
     }
 }
