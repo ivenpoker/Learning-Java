@@ -17,7 +17,7 @@ public class Exercise_4_34 {
         // this
         //
         //              (x + y) = (x + y) + 1;
-        //    While does make sense, since the right hand side (x+y) isn't a memory
+        //    Why this doesn't make sense, is that the right hand side (x+y) isn't a memory
         // location.
 
         // FIX: Create a new variable and assign the results of (x+y) to it then,
