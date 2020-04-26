@@ -14,24 +14,18 @@ public class Exercise_4_19 {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        double totalEarnings = 0.0;
-        boolean onlyOne = true;
-        int itemCnt = 1;
+        int cnt = 1;
+        double totalSales  = 0;
 
-        System.out.printf("Enter item %d value [0 to quit]: ", itemCnt);
-        double itemValue = input.nextDouble();
+        System.out.printf("Enter sales #%d for week [-1 to quit]: ", cnt++);
+        double tempSale = input.nextDouble();
 
-        while (itemValue > 0) {
-            if (onlyOne) onlyOne = false;
-            totalEarnings += 200 + (((double) (9) /100) * itemValue);
-            System.out.printf("Enter item %d value [0 to quit]: ", itemCnt++);
-            itemValue = input.nextDouble();
+        while (tempSale != -1) {
+            totalSales += tempSale;
+            System.out.printf("Enter sales #%d for week [-1 to quit]: ", cnt++);
+            tempSale = input.nextDouble();
         }
-        if (onlyOne) {
-            System.out.printf("\nTotal earnings: $%.2f\n", (200 + (double) 9 / 100) * itemValue);
-        } else {
-            System.out.printf("\nTotal earnings: $%.2f\n", totalEarnings);
-        }
+        System.out.printf("%n%nYour earning: $%.2f%n", (200 + (((double)9/100) * totalSales)));
     }
 
 }
