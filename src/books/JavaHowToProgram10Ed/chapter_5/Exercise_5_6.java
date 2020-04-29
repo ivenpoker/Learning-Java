@@ -26,5 +26,8 @@ public class Exercise_5_6 {
         // 2. 'Increment' in 'while' isn't part of the syntax (definition) i.e, it can't be
         //    found on the same line as the 'termination condition' (if any), whereas in 'for'
         //    it is found.
+        // 3. Initialization of variable(s) when done in 'for' loop, goes out of scope when loop
+        //    terminates. Whereas, in while loop, since initialization is done before loop, when the
+        //    while loop terminates, it's still within it's scope.
     }
 }
