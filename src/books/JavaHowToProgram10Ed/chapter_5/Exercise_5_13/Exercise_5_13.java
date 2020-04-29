@@ -6,7 +6,7 @@
 // #                                                                                  #
 // ####################################################################################
 
-package books.JavaHowToProgram10Ed.chapter_5;
+package books.JavaHowToProgram10Ed.chapter_5.Exercise_5_13;
 
 public class Exercise_5_13 {
 
