@@ -18,8 +18,8 @@ public class Exercise_5_8 {
 
         // ANS: CONTRAST:
         //     -- 'break' statement will terminate the execution of the current counter-controlled
-        //         repetition statement, moving the next. Whereas 'continue' statement, will ignore the
-        //         remaining program statements for that particular iteration, moving to the next iteration,
-        //         not exiting counter-controlled repetition statement.
+        //         repetition statement, moving to the next statement(s) after loop (if any). Whereas 'continue'
+        //         statement, will ignore the remaining program statements for that particular iteration, moving to the next iteration,
+        //         not exiting counter-controlled repetition statement(s).
     }
 }
