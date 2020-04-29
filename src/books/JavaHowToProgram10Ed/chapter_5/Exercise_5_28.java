@@ -8,7 +8,7 @@
 
 package books.JavaHowToProgram10Ed.chapter_5;
 
-public class Exercise_2_28 {
+public class Exercise_5_28 {
 
     public static void main(String[] args) {
 
