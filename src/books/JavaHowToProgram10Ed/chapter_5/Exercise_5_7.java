@@ -11,7 +11,9 @@ package books.JavaHowToProgram10Ed.chapter_5;
 public class Exercise_5_7 {
 
     public static void main(String[] args) {
+
         // ANS: A do..while will be more suitable over the 'while' statement in some scenarios
-        //      where the some counter-controlled repetition needs to bone ATLEAST once.
+        //      where the counter-controlled repetition needs to bone AT LEAST once before checking
+        //      conditions.
     }
 }
