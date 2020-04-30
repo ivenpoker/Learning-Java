@@ -12,7 +12,7 @@ public class Exercise_5_27 {
 
     public static void main(String[] args) {
 
-        // Prints a square of size 3, made of '*'s to the console,
+        // Prints a square of size 4, made of '*'s to the console,
         // the prints a two new lines. This is repeated 5 times.
 
         for (int i = 1; i <= 5; i++) {
