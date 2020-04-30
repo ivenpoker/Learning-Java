@@ -13,9 +13,9 @@ public class Exercise_5_28 {
     public static void main(String[] args) {
 
         // To remove any 'continue' statement by replacing it with a structural equivalent,
-        // we can provide a and 'empty' body for the condition that was used for the 'continue'
+        // we can provide an 'empty' body for the condition that was used for the 'continue'
         // statement and attach the remaining code (that was to be executed if the condition failed)
-        // in and 'else' block. OR we can just execute the code after the continue by putting it in
+        // in an 'else' block. OR we can just execute the code after the continue by putting it in
         // an if statement that verifies that the condition that causes the 'continue', is never met.
 
         // Code from  Fig 5.14 of book
