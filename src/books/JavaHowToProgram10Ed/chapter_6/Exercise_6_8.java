@@ -36,8 +36,8 @@ public class Exercise_6_8 {
         double hourC = input.nextDouble();
 
         System.out.printf("Charge for customer A: $%.2f\n", calculateCharges(hourA));
-        System.out.printf("Charge for customer A: $%.2f\n", calculateCharges(hourB));
-        System.out.printf("Charge for customer A: $%.2f\n", calculateCharges(hourC));
+        System.out.printf("Charge for customer B: $%.2f\n", calculateCharges(hourB));
+        System.out.printf("Charge for customer C: $%.2f\n", calculateCharges(hourC));
 
     }
 }
