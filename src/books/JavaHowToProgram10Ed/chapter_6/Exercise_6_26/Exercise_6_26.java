@@ -6,7 +6,7 @@
 // #                                                                                  #
 // ####################################################################################
 
-package books.JavaHowToProgram10Ed.chapter_6;
+package books.JavaHowToProgram10Ed.chapter_6.Exercise_6_26;
 
 import java.util.Scanner;
 
