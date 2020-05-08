@@ -1,4 +1,4 @@
-package books.JavaHowToProgram10Ed.chapter_6;
+package books.JavaHowToProgram10Ed.chapter_6.Exercise_6_36;
 
 import java.util.Scanner;
 import java.security.SecureRandom;
