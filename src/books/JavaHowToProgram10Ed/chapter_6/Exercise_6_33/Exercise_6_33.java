@@ -6,7 +6,7 @@
 // #                                                                                  #
 // ####################################################################################
 
-package books.JavaHowToProgram10Ed.chapter_6;
+package books.JavaHowToProgram10Ed.chapter_6.Exercise_6_33;
 
 import java.security.SecureRandom;
 import java.util.Scanner;
@@ -32,7 +32,7 @@ public class Exercise_6_33 {
         System.out.print("Enter a wager: ");
         double wager = input.nextDouble();
 
-        while (wager > bankBalance) {
+        while (wager < bankBalance) {
             System.out.printf("Enter wager ( <= %.1f ): ", bankBalance);
             wager = input.nextDouble();
         }
