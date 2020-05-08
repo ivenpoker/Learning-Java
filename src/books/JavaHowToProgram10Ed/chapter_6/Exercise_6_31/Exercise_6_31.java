@@ -6,7 +6,7 @@
 // #                                                                                  #
 // ####################################################################################
 
-package books.JavaHowToProgram10Ed.chapter_6;
+package books.JavaHowToProgram10Ed.chapter_6.Exercise_6_31;
 
 import java.security.SecureRandom;
 import java.util.Scanner;
