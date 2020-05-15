@@ -29,24 +29,24 @@ public class DrawingSpiralLines extends JPanel {
     public void paintComponent(Graphics graphics) {
         super.paintComponent(graphics);
 
-        int width = this.getWidth();
-        int height = this.getHeight();
+        int width = this.getWidth();                                // Obtain panel's width
+        int height = this.getHeight();                              // Obtain panel's height
 
-        int lineStartX = width / 2;
-        int lineStartY = height / 2;
+        int lineStartX = width / 2;                                 // Starting X co-ordinate for first line is at panel's middle width
+        int lineStartY = height / 2;                                // Starting Y co-ordinate for second line is at panel's middle height
 
-        int linesDrawn = 0;
+        int linesDrawn = 0;                                         // Default number of lines drawn
 
-        int lineLength = 10;
-        int numberOfLineSpirals = this.numberOfLineSpirals;
+        int lineLength = 10;                                        // First line's default length.
+        int numberOfLineSpirals = this.numberOfLineSpirals;         // Number of lines to draw.
 
         // We get a random color for our lines
 
-        int red   = random.nextInt(255);
-        int green = random.nextInt(255);
-        int blue  = random.nextInt(255);
+        int red   = random.nextInt(256);                     // Random red (R in RGB) value in range [0, 225]
+        int green = random.nextInt(256);                     // Random green (G in RGB) value in range [0, 225]
+        int blue  = random.nextInt(256);                     // Random blue (B in RGB) value in range [0, 225]
 
-        graphics.setColor(new Color(red, green, blue));
+        graphics.setColor(new Color(red, green, blue));             // Set the color
 
         while (numberOfLineSpirals > 0) {
             switch (this.currentDirection) {
@@ -82,9 +82,18 @@ public class DrawingSpiralLines extends JPanel {
                     this.currentDirection = LineDirections.GO_DOWN;
                     break;
             }
+
+            // We only increase the lengths of the lines after
+            // drawing two lines in the panel
+
             if (linesDrawn % 2 == 0 && linesDrawn != 0) {
                 lineLength += 10;
             }
+
+            // Reduce number of spirals specified by user of class.
+            // This is to avoid infinite recursion (drawing infinite number
+            // of lines) on the panel.
+
             numberOfLineSpirals -= 1;
         }
     }
