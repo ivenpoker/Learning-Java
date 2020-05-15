@@ -1,4 +1,4 @@
-package books.JavaHowToProgram10Ed.chapter_7.Exercise_7_1;
+package books.JavaHowToProgram10Ed.chapter_7.Exercise_7_1.Exercise_7_1_a;
 
 import javax.swing.JPanel;
 import java.awt.Color;
