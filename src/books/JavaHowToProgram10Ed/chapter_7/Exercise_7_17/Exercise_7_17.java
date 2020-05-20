@@ -6,9 +6,9 @@
 // #                                                                                  #
 // ####################################################################################
 
-package books.JavaHowToProgram10Ed.chapter_7.Exercises;
+package books.JavaHowToProgram10Ed.chapter_7.Exercise_7_17;
 
-public class Exercise_7_16 {
+public class Exercise_7_17 {
 
     private static double computeSum(double... someData) {
         double sum = 0.0;
