@@ -6,13 +6,20 @@
 // #                                                                                  #
 // ####################################################################################
 
-package books.JavaHowToProgram10Ed.chapter_8.Exercise;
+package books.JavaHowToProgram10Ed.chapter_8.Exercise.Exercise_8_3;
 
 public class Exercise_8_3 {
 
+    public class Demo {
+        public void Demo() {
+
+        }
+    }
+
     public static void main(String[] args) {
 
-        // ANS: There will be a compilation error.
+        // ANS: The constructor in question will become a class method with the same name
+        //      as the class. This can be seen above with the class 'Demo' above.
 
     }
 }
