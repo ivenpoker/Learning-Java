@@ -6,7 +6,7 @@
 // #                                                                                  #
 // ####################################################################################
 
-package books.JavaHowToProgram10Ed.chapter_8.Exercise;
+package books.JavaHowToProgram10Ed.chapter_8.Exercise.Exercise_8_2;
 
 public class Exercise_8_2 {
 
@@ -14,10 +14,10 @@ public class Exercise_8_2 {
 
         // Package Access in Java is used to determine how classes
         // can access other members in other classes or interfaces found
-        // in other directories.
+        // in other directories (in the same package).
 
         // Negative aspect of packages. If a instance member in a class has package access,
         // another class (in same package) accessing the member can set it to an invalid state
-        // leading to logic errors.
+        // leading to logic errors, app (system) crashes, security breaches etc.
     }
 }
