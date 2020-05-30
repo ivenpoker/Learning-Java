@@ -104,7 +104,6 @@ class AltTime2 {
     public void incrementHour() {
         if (this.hour == 23) {
             this.minute = 0;
-            this.second = 0;
             this.hour = 0;
         } else {
             this.hour += 1;
