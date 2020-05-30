@@ -6,7 +6,7 @@
 // #                                                                                  #
 // ####################################################################################
 
-package books.JavaHowToProgram10Ed.chapter_8.Exercise;
+package books.JavaHowToProgram10Ed.chapter_8.Exercise.Exercise_8_9;
 
 import static java.lang.Math.sqrt;
 import static java.lang.Math.ceil;
