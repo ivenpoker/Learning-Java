@@ -7,7 +7,7 @@
 // ####################################################################################
 
 
-package books.JavaHowToProgram10Ed.chapter_9.Exercises;
+package books.JavaHowToProgram10Ed.chapter_9.Exercises.Exercise_9_12;
 
 public class Exercise_9_12 {
 
