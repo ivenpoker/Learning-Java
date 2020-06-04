@@ -111,7 +111,11 @@ public class Exercise_194 {
         ArrayList<Cord> keyLocations = getSearchKeyLocations(matrix, userSearchKey);
 
         // Display the results
-        printKeyLocations(String.format("Results for '%d' ... \n\n", userSearchKey), keyLocations);
+        if (keyLocations.size() == 0) {
+            System.out.printf("\n[NOT_FOUND]: Number '%d' not found.\n\n", userSearchKey);
+        } else {
+            printKeyLocations(String.format("\nResults for '%d' ... \n\n", userSearchKey), keyLocations);
+        }
 
     }
 }
