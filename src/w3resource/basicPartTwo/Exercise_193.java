@@ -5,7 +5,7 @@ package w3resource.basicPartTwo;
 // #    Program Purpose: Accepts an integer and find the sum of all elements from all possible #
 // #                     subsets of a set formed by first N natural numbers.                   #
 // #    Program Author : Happi Yvan <ivensteinpoker@gmail.com>                                 #
-// #    Creation Date  : May 28, 2020                                                          #
+// #    Creation Date  : June 4, 2020                                                          #
 // #                                                                                           #
 // #############################################################################################
 
