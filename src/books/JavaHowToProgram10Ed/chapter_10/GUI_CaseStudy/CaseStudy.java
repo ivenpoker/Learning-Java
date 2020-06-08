@@ -8,17 +8,24 @@ import java.awt.BorderLayout;
 public class CaseStudy {
 
     private static int obtainUserNumberOfShapes() {
-        StringBuilder message = new StringBuilder("How many shapes to draw ?");
-        String userNumStr = JOptionPane.showInputDialog(message.toString());
+        String message = "How many shapes to draw ?";
         int userNumInt = 0;
+        boolean appended = false;
         while (true) {
             try {
+                String userNumStr = JOptionPane.showInputDialog(message);
+                if (userNumStr == null) {
+                    break;
+                }
                 userNumInt = Integer.parseInt(userNumStr);
                 if (userNumInt > 0) {
                     break;
                 }
             } catch (NumberFormatException nFe) {
-                message.append("[MUST BE INTEGER > 0] ");
+                if (!appended) {
+                    message = "[MUST BE INTEGER > 0] " + message;
+                    appended = true;
+                }
             }
         }
         return userNumInt;
