@@ -1,4 +1,4 @@
-package books.JavaHowToProgram10Ed.chapter_10.GUI_CaseStudy;
+package books.JavaHowToProgram10Ed.chapter_10.GUI_CaseStudy_10_1;
 
 import javax.swing.JFrame;
 import javax.swing.JLabel;
