@@ -1,4 +1,4 @@
-package books.JavaHowToProgram10Ed.chapter_10.Exercises;
+package books.JavaHowToProgram10Ed.chapter_10.Exercises.Exercise_10_10;
 
 public class Exercise_10_10 {
 
