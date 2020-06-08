@@ -1,4 +1,4 @@
-package books.JavaHowToProgram10Ed.chapter_10.Exercises;
+package books.JavaHowToProgram10Ed.chapter_10.Exercises.Exercise_10_8;
 
 public class Exercise_10_8 {
 
@@ -10,7 +10,7 @@ public class Exercise_10_8 {
     // #                                                                                  #
     // ####################################################################################
 
-    // ANS: Abstract classes contain provide method body, whereas interfaces cannot provide
+    // ANS: Abstract classes can provide method body, whereas interfaces cannot provide
     //      method declarations (Java SE 7).
     //
     //      Abstract classes doesn't support 'default' methods, interfaces do support
