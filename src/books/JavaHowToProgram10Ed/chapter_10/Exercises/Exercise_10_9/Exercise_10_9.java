@@ -1,4 +1,4 @@
-package books.JavaHowToProgram10Ed.chapter_10.Exercises;
+package books.JavaHowToProgram10Ed.chapter_10.Exercises.Exercise_10_9;
 
 public class Exercise_10_9 {
 
@@ -13,5 +13,5 @@ public class Exercise_10_9 {
     // ANS: With default methods, a sample implementation of the method can be provided,
     //      allowing the those classes implementing it, not to 'forcefully' provide an
     //      implementation, as result, classes that implemented the interface before
-    //      this 'default' method was included, doesn't need modifications.
+    //      this 'default' method was included, don't need modifications.
 }
