@@ -1,4 +1,4 @@
-package books.JavaHowToProgram10Ed.chapter_11.Exercises;
+package books.JavaHowToProgram10Ed.chapter_11.Exercises.Exercise_11_15;
 
 // ####################################################################################
 // #                                                                                  #
