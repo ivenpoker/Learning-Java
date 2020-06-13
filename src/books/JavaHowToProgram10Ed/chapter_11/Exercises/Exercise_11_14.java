@@ -15,7 +15,7 @@ public class Exercise_11_14  {
      *          -> Division by zero.                   -> [ArithmeticException]
      *          -> Invalid array index.                -> [ArrayIndexOutOfBoundsException]
      *          -> Invalid character index in a string -> [StringIndexOutOfBoundsException]
-     *          -> Trying to process a pointer         -> [NullPointerException]
+     *          -> Trying to process a null object     -> [NullPointerException]
      *          -> Invalid input from user.            -> [InputMismatchException]
      *
      *
