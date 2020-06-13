@@ -17,7 +17,7 @@ public class Exercise_11_15 {
      *         possible errors that could occurs. Let's say we're doing some computation,
      *         there might an 'ArithmeticException' that might occur, which wasn't seen
      *         at design time, as a result will problematic at runtime. Using Exceptions
-     *         leaves us with the possibility to hand all kinds of possible exceptions
+     *         leaves us with the possibility to hand some kinds of possible exceptions
      *         that might occurs (both seen and unseen) by using the main 'super'
      *         exception class, 'Exception'. This guarantees that whatever exception
      *         that occurs in the constructor it will be caught (as long as all the code
