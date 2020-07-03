@@ -6,7 +6,7 @@ package w3resource.basicPartTwo;
 // #                     is $100,000 and the loan adds 4% interest of the dept and rounds it   #
 // #                     to the nearest 1,000 above month by month.                            #
 // #    Program Author : Happi Yvan <ivensteinpoker@gmail.com>                                 #
-// #    Creation Date  : July 02, 2020                                                         #
+// #    Creation Date  : July 03, 2020                                                         #
 // #                                                                                           #
 // #############################################################################################
 
