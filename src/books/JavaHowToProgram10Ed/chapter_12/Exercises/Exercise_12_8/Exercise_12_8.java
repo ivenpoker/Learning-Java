@@ -1,4 +1,4 @@
-package books.JavaHowToProgram10Ed.chapter_12.Exercises;
+package books.JavaHowToProgram10Ed.chapter_12.Exercises.Exercise_12_8;
 
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
