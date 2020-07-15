@@ -1,4 +1,4 @@
-package books.JavaHowToProgram10Ed.chapter_14.Exercises;
+package books.JavaHowToProgram10Ed.chapter_14.Exercises.Exercise_14_6;
 
 // ####################################################################################
 // #                                                                                  #
@@ -27,6 +27,7 @@ public class Exercise_14_6 {
             StringBuilder sentence = new StringBuilder(names[random.nextInt(MAX_RAND_FROM_PARTS)]).append(" ");
             sentence.append(verbs[random.nextInt(MAX_RAND_FROM_PARTS)]).append(" ");
             sentence.append(likes[random.nextInt(MAX_RAND_FROM_PARTS)]).append(" ");
+            sentence.append("in ");
             sentence.append(places[random.nextInt(MAX_RAND_FROM_PARTS)]).append(".");
 
             sentence.replace(0, 1, Character.toString(sentence.charAt(0)));
