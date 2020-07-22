@@ -1,29 +1,74 @@
 package books.JavaHowToProgram10Ed.chapter_14.Exercises.Exercise_14_14;
 
-// ####################################################################################
-// #                                                                                  #
-// #      Program Purpose: Answers the Exercise 14.14 from book.                      #
-// #      Program Author : Happi Yvan <ivensteinpoker@gmail.com>                      #
-// #      Program Date   : August 6, 2019                                             #
-// #                                                                                  #
-// ####################################################################################
-
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Exercise_14_14 {
 
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+    private static Scanner scanner = new Scanner(System.in);
+    private static final String endStr = "ED";
 
-        System.out.print("Enter integer code for a character: ");
-        int userInt = input.nextInt();
+    private static String readUserString(String inputMess) {
+        boolean valid = false;
+        String userText = "";
 
-        System.out.printf("Character equivalent: %c\n", (char) userInt);
+        while (!valid) {
+            try {
+                System.out.print(inputMess);
+                userText = scanner.nextLine().trim();
 
-        // Display all characters from 000 to 255;
+                if (userText.isEmpty()) {
+                    throw new IllegalArgumentException("please enter some input.");
+                }
+                valid = true;
 
-        for (int i = 0; i <= 255; i++) {
-            System.out.printf("Character for %03d: %c\n", i, (char) i);
+            } catch (IllegalStateException iSe) {
+                System.out.print("[re-opening__scanner] ... ");
+                scanner = new Scanner(System.in);
+                System.out.println("[DONE]");
+
+                // clear input stream
+                scanner.nextLine();
+
+            } catch (Exception exc) {
+                System.err.printf("[EXCEPTION]: %s%n", exc.getMessage());
+                scanner.nextLine();                 // clear input stream.
+            }
+        }
+        return userText;
+    }
+
+    private static ArrayList<String> processString(String mainStr, String targetEndStr) {
+        ArrayList<String> matchedWords = new ArrayList<>();
+        String[] words = mainStr.split("\\s+");
+
+        for (String word : words) {
+            if (word.endsWith(targetEndStr)) {
+                matchedWords.add(word);
+            }
+        }
+        return matchedWords;
+    }
+
+    private static void displayFoundStrings(String message, ArrayList<String> wordsList) {
+        System.out.print(message);
+
+        if (wordsList.isEmpty()) {
+            System.out.println("[NONE]");
+        } else {
+            System.out.printf("%s%n", Arrays.toString(wordsList.toArray(new String[0])));
         }
     }
+
+    public static void main(String[] args) {
+
+        String userMainText = readUserString("Enter some text: ");
+        ArrayList<String> matchedWords = processString(userMainText, endStr);
+
+        // display found strings
+        displayFoundStrings(String.format("Found words ending with '%s': ", endStr), matchedWords);
+
+    }
+
 }

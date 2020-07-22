@@ -1,4 +1,4 @@
-package books.JavaHowToProgram10Ed.chapter_14.Exercises.Exercise_14_14;
+package books.JavaHowToProgram10Ed.chapter_14.Exercises.Exercise_14_15;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
