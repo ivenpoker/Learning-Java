@@ -53,7 +53,7 @@ public class Exercise_232 {
         return numFactors(num) == 2;
     }
 
-    private static int computPrimesSum(int maxPrimes) {
+    private static int computePrimesSum(int maxPrimes) {
         int sum = 0;
         int numPrimesFound = 0;
 
@@ -70,7 +70,7 @@ public class Exercise_232 {
     public static void main(String[] args) {
 
         int numberOfPrimes = obtainUserInteger("How many primes to compute sum ?: ");
-        System.out.printf("Sum of first %d prime numbers: %d%n", numberOfPrimes, computPrimesSum(numberOfPrimes));
+        System.out.printf("Sum of first %d prime numbers: %d%n", numberOfPrimes, computePrimesSum(numberOfPrimes));
     }
 
 }
