@@ -13,7 +13,7 @@ import java.util.NoSuchElementException;
 import java.util.Objects;
 import java.util.Scanner;
 
-public class Exercise_240 {
+public class Exercise_239 {
 
     private static final Scanner scanner = new Scanner(System.in);
     private static final int MAX_NUMBER_OF_CHARS = 1024;
