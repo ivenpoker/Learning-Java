@@ -1,4 +1,4 @@
-package books.JavaHowToProgram10Ed.chapter_16.Exercises;
+package books.JavaHowToProgram10Ed.chapter_16.Exercises.Exercise_16_10;
 
 // ####################################################################################
 // #                                                                                  #
@@ -13,9 +13,10 @@ public class Exercise_16_10 {
     public static void main(String[] args) {
 
         /**
-         * a) Nope (false)
-         * b) False. Returns the LOWEST element in th TreeSet (which COULD be the first).
-         * c) False. List doesn't provide method(s) to resize itself.
+         * a) True, they must be.
+         * b) Yes. Returns the LOWEST element in th TreeSet (which is the first).
+         * c) False. List doesn't provide method(s) to resize itself and any attempt to modify
+         *           data will throw 'UnsupportedOperationException'
          */
     }
 
