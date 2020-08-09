@@ -1,4 +1,4 @@
-package books.JavaHowToProgram10Ed.chapter_16.Exercises;
+package books.JavaHowToProgram10Ed.chapter_16.Exercises.Exercise_16_13;
 
 // ####################################################################################
 // #                                                                                  #
@@ -19,7 +19,6 @@ public class Exercise_16_13 {
 
     private static void readAndStoreFirstNames() {
         String firstName = "";
-        int i = 0;
         boolean cont = true;
 
         while (cont) {
