@@ -1,4 +1,4 @@
-package books.JavaHowToProgram10Ed.chapter_16.Exercises;
+package books.JavaHowToProgram10Ed.chapter_16.Exercises.Exercise_16_3;
 
 // ####################################################################################
 // #                                                                                  #
@@ -14,7 +14,7 @@ public class Exercise_16_3 {
         /**
          * a) Collection : Interface that abstracts operations on a group of related objects.
          * b) Collections: Class that provides static methods to operate on `Collection` objects.
-         * c) Comparator :  Interface that implemented by a class to say the class objects can be 'compared'.
+         * c) Comparator : Interface that if implemented by a class says the class objects can be 'compared'.
          * d) List       : A collection object that stores data of same type dynamically, can shrink and grow on execution.
          * e) Load factor: That which is used to measure the state of hashing for object.
          * f) Collision  : When two objects hash to same value.
