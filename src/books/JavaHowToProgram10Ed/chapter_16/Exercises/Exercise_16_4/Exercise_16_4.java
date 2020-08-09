@@ -1,4 +1,4 @@
-package books.JavaHowToProgram10Ed.chapter_16.Exercises;
+package books.JavaHowToProgram10Ed.chapter_16.Exercises.Exercise_16_4;
 
 // ####################################################################################
 // #                                                                                  #
@@ -16,7 +16,7 @@ public class Exercise_16_4 {
         /**
          * a) add: Adds an element to end of the vector
          * b) set: Replaces the element at the specified position in the Vector with the specified element.
-         * c) remove: Removes the first occurrence of the specified element in the Vector If the Vector does
+         * c) remove: Removes the first occurrence of the specified element in the Vector. If the Vector does
          *            not contain the element, it is unchanged.
          * d) removeAllElements: Removes all components from the vector and sets its size to zero.
          * e) removeElementAt: Deletes the component at a specified index.
