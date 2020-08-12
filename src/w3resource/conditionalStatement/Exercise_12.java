@@ -31,6 +31,8 @@ public class Exercise_12 {
 
             } catch (InputMismatchException iMe) {
                 System.err.printf("[invalid_input]: %s%n", iMe.getMessage());
+                input.nextLine();               // clear input stream.
+
 
             } catch (Exception exc) {
                 System.err.printf("[MAIN_EXCEPTION]: %s%n", exc.getMessage());
