@@ -1,4 +1,4 @@
-//package w3resource.conditionalStatement;
+package w3resource.conditionalStatement;
 
 // ###########################################################################################
 // #                                                                                         #
