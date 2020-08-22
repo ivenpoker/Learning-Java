@@ -4,7 +4,7 @@ package w3resource.array;
 // #                                                                                         #
 // #    Program Purpose: Generates a random integer array and sum all data within.           #
 // #    Program Author : Happi Yvan <ivensteinpoker@gmail.com>                               #
-// #    Creation Date  : August 21, 2020                                                     #
+// #    Creation Date  : August 22, 2020                                                     #
 // #                                                                                         #
 // ###########################################################################################
 
