@@ -4,7 +4,7 @@ package w3resource.array;
 // #                                                                                         #
 // #    Program Purpose: Creates and displays a grid with specified character.               #
 // #    Program Author : Happi Yvan <ivensteinpoker@gmail.com>                               #
-// #    Creation Date  : August 21, 2020                                                     #
+// #    Creation Date  : August 22, 2020                                                     #
 // #                                                                                         #
 // ###########################################################################################
 
