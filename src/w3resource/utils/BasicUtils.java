@@ -29,4 +29,10 @@ public class BasicUtils {
         System.out.println();
     }
 
+    public static void printLineInfo(String mess, char ch, int maxLineLength) {
+        System.out.println();
+        BasicUtils.printLineMessage(mess, ch, maxLineLength);
+        System.out.println();
+    }
+
 }
