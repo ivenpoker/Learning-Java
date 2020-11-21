@@ -52,6 +52,7 @@ public class Exercise_2 {
         int userIdx = getUserIndex("Enter index to get char Unicode: ", 0, mainTestData.length());
 
         System.out.printf("Character (unicode point): %d%n", getUnicodeCodePointAtIndex(mainTestData, userIdx));
+        System.out.printf("Character (unicode point): %d%n", mainTestData.codePointAt(userIdx));
     }
 
 }
