@@ -70,4 +70,24 @@ public class BasicUtils {
         return userInput;
     }
 
+    public static char readUserChar(String inputMess) {
+        boolean isInputValid = false;
+        char userChar = ' ';
+
+        while (!isInputValid) {
+            try {
+                System.out.print(inputMess);
+                userChar = scanner.next().trim().charAt(0);
+
+                isInputValid = true;
+            } catch (InputMismatchException iMe) {
+                System.err.printf("[invalid_input]: %s%n", iMe.getMessage());
+
+            } catch (Exception exc) {
+                System.err.printf("[MAIN_EXCEPTION]: %s%n", exc.getMessage());
+            }
+        }
+        return userChar;
+    }
+
 }
