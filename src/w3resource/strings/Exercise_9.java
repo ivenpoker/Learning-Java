@@ -1,27 +1,23 @@
-package w3resource.utils;
+package w3resource.strings;
 
 // ###########################################################################################
 // #                                                                                         #
-// #    Program Purpose: Concatenates two string together and display concatenated string.   #
+// #    Program Purpose: Compares a given string to the specified character sequence.        #
 // #    Program Author : Happi Yvan <ivensteinpoker@gmail.com>                               #
 // #    Creation Date  : November 22, 2020                                                   #
 // #                                                                                         #
 // ###########################################################################################
 
-public class Exercise_7 {
+public class Exercise_9 {
 
     public static void main(String[] args) {
+        String str1 = "example.com";
+        String str2 = "Example.com";
 
-        // Obtain string from user
-        String fsStr = BasicUtils.readUserInputString("Enter first string: ", true);
-        String sndStr = BasicUtils.readUserInputString("Enter second string: ", true);
+        CharSequence mainCharSeq = "example.com";
 
-        // Concatenate obtained strings.
-        String newStr = fsStr.concat(sndStr);
-
-        // Display concatenated string
-        System.out.printf("Concatenated string: %s%n", newStr);
+        System.out.printf("Comparing [A] and [B]: %s%n", str1.contentEquals(mainCharSeq));
+        System.out.printf("Comparing [B] and [A]: %s%n", str2.contentEquals(mainCharSeq));
     }
 
 }
-

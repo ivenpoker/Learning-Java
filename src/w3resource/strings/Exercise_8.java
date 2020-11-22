@@ -1,4 +1,4 @@
-package w3resource.utils;
+package w3resource.strings;
 
 // ###########################################################################################
 // #                                                                                         #
@@ -8,6 +8,8 @@ package w3resource.utils;
 // #    Creation Date  : November 22, 2020                                                   #
 // #                                                                                         #
 // ###########################################################################################
+
+import w3resource.utils.BasicUtils;
 
 public class Exercise_8 {
 
