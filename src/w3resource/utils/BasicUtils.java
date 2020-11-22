@@ -1,6 +1,11 @@
 package w3resource.utils;
 
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
 public class BasicUtils {
+
+    private static final Scanner scanner = new Scanner(System.in);
 
     public static void printLine(char ch, int maxLineLength) {
         for (int i = 0; i < maxLineLength; i++) {
@@ -33,6 +38,36 @@ public class BasicUtils {
         System.out.println();
         BasicUtils.printLineMessage(mess, ch, maxLineLength);
         System.out.println();
+    }
+
+    public static String readUserInputString(String inputMess, boolean handleErrors) {
+        boolean isInputValid = false;
+        String userInput = "";
+
+        if (!handleErrors) {
+            System.out.print(inputMess);
+            return scanner.nextLine().trim();
+
+        } else {
+            while (!isInputValid) {
+                try {
+                    System.out.print(inputMess);
+                    userInput = scanner.nextLine().trim();
+
+                    if (userInput.isEmpty()) {
+                        throw new InputMismatchException("Missing input");
+                    }
+                    isInputValid = true;
+                } catch (InputMismatchException iMe) {
+                    System.err.printf("[invalid_input]: %s%n", iMe.getMessage());
+
+                } catch (Exception exc) {
+                    System.err.printf("[MAIN_EXCEPTION]: %s%n", exc.getCause().getMessage());
+                }
+            }
+        }
+
+        return userInput;
     }
 
 }
