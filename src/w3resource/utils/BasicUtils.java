@@ -7,6 +7,10 @@ public class BasicUtils {
 
     private static final Scanner scanner = new Scanner(System.in);
 
+    private static boolean inRange(int lower, int val, int upper) {
+        return lower <= val && val <= upper;
+    }
+
     public static void printLine(char ch, int maxLineLength) {
         for (int i = 0; i < maxLineLength; i++) {
             System.out.printf("%c", ch);
@@ -88,6 +92,51 @@ public class BasicUtils {
             }
         }
         return userChar;
+    }
+
+    public static int getUserIntInput(String inputMess) {
+        boolean isInputValid = false;
+        int userInt = Integer.MIN_VALUE;
+
+        while (!isInputValid) {
+            try {
+                System.out.print(inputMess);
+                userInt = scanner.nextInt();
+
+                isInputValid = true;
+            } catch (InputMismatchException iMe) {
+                System.err.printf("[invalid_input]: %s%n", iMe.getMessage());
+
+            } catch (Exception exc) {
+                System.err.printf("[MAIN_EXCEPTION]: %s%n", exc.getMessage());
+            }
+        }
+        return userInt;
+    }
+
+    public static int getUserIntInputBounds(String inputMess, int lowerBound, int upperBound) {
+        boolean isInputValid = false;
+        int userInt = Integer.MIN_VALUE;
+
+        while (!isInputValid) {
+            try {
+                System.out.print(inputMess);
+                userInt = scanner.nextInt();
+
+                if (!inRange(lowerBound, userInt, upperBound)) {
+                    throw new InputMismatchException(
+                            String.format("Integer value must be bounds [%d, %d]",
+                                    lowerBound, upperBound));
+                }
+                isInputValid = true;
+            } catch (InputMismatchException iMe) {
+                System.err.printf("[invalid_input]: %s%n", iMe.getMessage());
+
+            } catch (Exception exc) {
+                System.err.printf("[MAIN_EXCEPTION]: %s%n", exc.getMessage());
+            }
+        }
+        return userInt;
     }
 
 }
