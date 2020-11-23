@@ -56,7 +56,7 @@ public class BasicUtils {
             while (!isInputValid) {
                 try {
                     System.out.print(inputMess);
-                    userInput = scanner.nextLine().trim();
+                    userInput = scanner.nextLine();
 
                     if (userInput.isEmpty()) {
                         throw new InputMismatchException("Missing input");
