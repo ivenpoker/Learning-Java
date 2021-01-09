@@ -13,8 +13,9 @@ public class Exercise_3_9 {
     public static void main(String[] args) {
         // ANS:
         //
-        // A program (say 'A') can use the class 'Scanner' with doing an import if 'A',
+        // A program (say 'A') can use the class 'Scanner' without doing an import if 'A',
         // is found in the same package as the class 'Scanner' OR If the 'Scanner' class
-        // is copied into 'A's package.
+        // is copied into A's package and finally also if the "Scanner" class full package
+        // (java.util.Scanner) is used when creating an object.
     }
 }
