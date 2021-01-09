@@ -15,7 +15,9 @@ public class Exercise_3_5 {
         // ANS:
         //
         // Thew 'new' keyword is used to 'request' for the
-        // allocation of memory of and object or a specific
-        // data type (as a group).
+        // allocation of memory for an object or a specific
+        // data type (as a group). The 'new' keyword therefore
+        // returns the address of the memory location occupied
+        // by the newly created object.
     }
 }
