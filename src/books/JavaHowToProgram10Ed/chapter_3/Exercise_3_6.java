@@ -22,6 +22,7 @@ public class Exercise_3_6 {
         // Primitive instance variable types are set to primitive values, that is
         // variables of type byte, char, short, int, long, float and double are
         // initialized to 0, and variables of type boolean are initialized to
-        // false. Reference instance variables are present they're initialized to 'null'
+        // false. Reference instance variables that are present they're initialized
+        // to 'null'
     }
 }
